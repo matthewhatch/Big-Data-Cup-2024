@@ -21,11 +21,11 @@
  In order for a shot to be attributed to a zone entry, it must happen after the zone entry and before a change in possession.  At this time, a change in possession includes a Dump Out, Pass Play,Face-Off (any play that leads to a face-off), or the end of the period.
 
  We will collect all Zone Entry Plays and all plays leading up to and including either a Shot, Goal, DumpOout by the opposing team, Pass Play by opposing team, Face-Off, or the end of the period.
-    - Clock Time - (20:00 is the beginning of the period)
-    - Period - (1,2,3) Period higher than 3 is OT
-    - Entry Type - (Carry, Play, Dump)
-    - Quality Shot (True, False)
-    - Game Situation (Winning, Losing, Tied)
-    - Even Stength (True, False)
+- Clock Time - (20:00 is the beginning of the period)
+- Period - (1,2,3) Period higher than 3 is OT
+- Entry Type - (Carry, Play, Dump)
+- Quality Shot (True, False)
+- Game Situation (Winning, Losing, Tied)
+- Even Stength (True, False)
 
 ### Step 3 - Analyze
