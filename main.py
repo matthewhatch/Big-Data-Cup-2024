@@ -29,7 +29,7 @@ for index, row in played.iterrows():
         print(sorrounding_events)
         print('-'*150)
 
-        img = mpimg.imread('rink2.png')
+        img = mpimg.imread('rink.png')
         fig, ax = plt.subplots()
         ax.imshow(img, extent=[0, 200, 0, 85])
         ax.set_xlim([0, 200])
@@ -48,5 +48,5 @@ for index, row in played.iterrows():
                   for team, color in TEAM_COLOR_MAP.items()]
         ax.legend(handles=legend_elements, loc='upper left', bbox_to_anchor=(0.65, 1.5))
         
-        # plt.savefig(f'scoring-play-{index}.png')
-        plt.show()
+        plt.savefig(f'output/scoring-play-{index}.png')
+        # plt.show()
